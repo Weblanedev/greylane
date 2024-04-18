@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+:root {
+  --blue: #121F3E;
+  --blueTwo: #3454D1;
+  --blueThree: #EBEEFA;
+  --blueFour: #F8FAFB;
+  --gray: #7E7E7E;
+  
+}
+*{
+    overscroll-behavior-y: none;
+      overscroll-behavior: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.manropefont {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+}
+.recoletafont {
+  font-family: 'Recoleta Alt';
+}
+.extrabold {
+  -webkit-text-stroke: 1px;
+  letter-spacing: 1.5px;
+
+}
+.submenu {
+  display: none;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, .15);
+  border-radius: 12px;
+}
+.box-shadow {
+  background: #FFFFFF;
+    box-shadow: 59px 59px 114px rgba(22, 28, 39, 0.04);
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.submenucontainers:hover .submenu {
+  display: block;
+}
+header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: max-content;
+  z-index: 3;
+}
+
+.scroll {
+  position: fixed;
+  transform: translateY(-9rem);
+  left: 0;
+  width: 100%;
+  height: max-content;
+  background-color: var(--accents-two);
+  z-index: 3;
+  transition: all 0.5s ease-in-out;
+}
+
+.scrolls {
+  position: fixed;
+  transform: translateY(0rem);
+  left: 0;
+  width: 100%;
+  height: max-content;
+  background-color: var(--accents-two);
+  z-index: 40;
+  transition: all 0.5s ease-in-out;
+}
+.shadows-two {
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.cta {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/vacation-4.jpg);
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/about-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.immigration-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/immigration-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.medical-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/medical-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.study-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/study-heros.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.visa-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/visa-hero-new.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.vacation-hero {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/vacation-heroo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.flight-hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/flight-heros.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.contact-hero {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/contact-uss.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
