@@ -15,7 +15,7 @@ module.exports = {
       },
       colors: {
         "blue-1000": "#121F3E",
-        "blue-1100": "#3454D1",
+        "blue-1100": "#C1BA0E",
         "blue-1200": "#EBEEFA",
         "blue-1300": "#F8FAFB",
         "blue-1400": "#F4F6F7",

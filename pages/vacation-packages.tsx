@@ -29,19 +29,19 @@ export default function VacationPackages() {
             img: "/assets/vacation-london.jpg",
             location: "London Trip",
             time: "5 Days/5 Nights",
-            price: "2765"
+            price: "2300"
         },
         {
             img: "/assets/vacation-paris.jpg",
             location: "Paris Trip",
             time: "5 Days/5 Nights",
-            price: "2623"
+            price: "4335"
         },
         {
             img: "/assets/vacation-switzerland.jpg",
             location: "Switzerland Trip",
             time: "5 Days/5 Nights",
-            price: "2446"
+            price: "3243"
         }
     ]
 
@@ -50,19 +50,19 @@ export default function VacationPackages() {
             img: "/assets/vacation-accra-three.jpg",
             location: "Aqua Safari",
             time: "2 Days/2 Nights",
-            price: "699"
+            price: "700"
         },
         {
             img: "/assets/vacation-accra-two.jpg",
             location: "Cape Coast",
             time: "2 Days/2 Nights",
-            price: "850"
+            price: "450"
         },
         {
             img: "/assets/vacation-accra-one.jpg",
             location: "Accra",
             time: "2 Days/2 Nights",
-            price: "992"
+            price: "1024"
         }
     ]
 
@@ -71,19 +71,19 @@ export default function VacationPackages() {
             img: "/assets/vacation-island-mal.jpg",
             location: "Vacation in Maldives",
             time: "6 Days/5 Nights",
-            price: "1480"
+            price: "1200"
         },
         {
             img: "/assets/vacation-island-mar.jpg",
             location: "Vacation in Mauritius",
             time: "6 Days/5 Nights",
-            price: "1580"
+            price: "1325"
         },
         {
             img: "/assets/vacation-island-san.jpg",
             location: "Vacation in Santorini",
             time: "5 Days/5 Nights",
-            price: "1670"
+            price: "1500"
         }
     ]
     const [outside, setOutsider] = useState<any>()

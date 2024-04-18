@@ -91,7 +91,7 @@ header {
 }
 
 .about-hero {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/about-hero.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/about-hero1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@ header {
   height: 60vh;
 }
 .contact-hero {
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/contact-uss.jpg);
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../public/assets/japan.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
