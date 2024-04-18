@@ -41,28 +41,28 @@ export default function Medical() {
             id: 1,
             name: "Mr James Okusanya",
             occupation: "Studying Msc public health",
-            testimonial: "I would recommend West-Gate Migration Services to anyone trying to get university admission overseas. They made my admission process very smooth and easy."
+            testimonial: "I would recommend Jupiter Travel Agency to anyone trying to get university admission overseas. They made my admission process very smooth and easy."
 
         },
         {
             id: 2,
             name: "Miss Obiakaeze",
             occupation: "",
-            testimonial: "I can't say enough about West-Gate Migration Services. West-Gate Migration Services really helped with my schenghen visa process after so many denials and money wasted. Thanks to them, my visa was approved in March."
+            testimonial: "I can't say enough about Jupiter Travel Agency. Jupiter Travel Agency really helped with my schenghen visa process after so many denials and money wasted. Thanks to them, my visa was approved in March."
 
         },
         {
             id: 3,
             name: "Mrs Vicky Dozie",
             occupation: "",
-            testimonial: "I have been using West-Gate Migration Services for over a year now for flight bookings! I can't imagine my travel life without them. Their customer service is great and they respond to complaints swiftly."
+            testimonial: "I have been using Jupiter Travel Agency for over a year now for flight bookings! I can't imagine my travel life without them. Their customer service is great and they respond to complaints swiftly."
 
         },
         {
             id: 4,
             name: "Mr Nwaneri",
             occupation: "",
-            testimonial: "West-Gate Migration Services helped my family and I with getting our passports at the Nigerian immigration office and tourist visas to England. Previously, we were lost and did not know what to do or where to start from. Using West-Gate Migration Services has definitely saved us time and money."
+            testimonial: "Jupiter Travel Agency helped my family and I with getting our passports at the Nigerian immigration office and tourist visas to England. Previously, we were lost and did not know what to do or where to start from. Using Jupiter Travel Agency has definitely saved us time and money."
 
         },
     ]

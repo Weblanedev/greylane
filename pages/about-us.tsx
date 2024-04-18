@@ -33,7 +33,7 @@ export default function AboutUs() {
             <div className='2xl:w-[1440px] mx-auto'>
                 <div className="pt-[80px]">
                     <p className='text-center text-[30px] lg:w-[50%] mb-[20px] m-auto font-[500] recoletafont text-blue-1000'>Who We Are</p>
-                    <p className='w-[90%] lg:w-[65%] text-[18px] leading-[28px] lg:text-[20px] lg:leading-[36px]  pb-[24px] m-auto text-justify  text-gray-1000 manropefont'>At Westgate Migration Services, we consider travelling to be more than an experience. We see ourselves as a business that turns travel dreams into realities and subsequently into unforgettable memories. We do more than make your dream trip a possibility; we make it inevitable.</p>
+                    <p className='w-[90%] lg:w-[65%] text-[18px] leading-[28px] lg:text-[20px] lg:leading-[36px]  pb-[24px] m-auto text-justify  text-gray-1000 manropefont'>At Jupiter Travel Agency, we consider travelling to be more than an experience. We see ourselves as a business that turns travel dreams into realities and subsequently into unforgettable memories. We do more than make your dream trip a possibility; we make it inevitable.</p>
                     <p className='w-[90%] lg:w-[65%] text-[18px] leading-[28px] lg:text-[20px] lg:leading-[36px] pb-[24px] m-auto text-justify  text-gray-1000 manropefont'>We guarantee that, with our skilled and
                         experienced team members providing you with expert advice and guidance, your trip is meticulously planned and curated,
                         you have access to 24/7 support and consultation,

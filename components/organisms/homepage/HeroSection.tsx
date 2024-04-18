@@ -34,7 +34,7 @@ const HeroSection = () => {
     return (
         <>
             <HeroHero className='flex justify-center flex-col items-center hero-her text-white' imgs={`/assets/hero-hero${bg}.jpg)`}>
-                <h1 className='text-[30px] text-center sm:text-[45px] lg:text-[55px] font-[900] pb-[16px] recoletafont'>West-Gate Migration Services</h1>
+                <h1 className='text-[30px] text-center sm:text-[45px] lg:text-[55px] font-[900] pb-[16px] recoletafont'>Jupiter Travel Agency</h1>
                 <p className='text-[16px] text-center w-[90%] sm:w-[85%] lg:w-[55%] sm:text-[25px] pb-[56px] sm:pb-[36px] font-[400] manropefont'>Make unforgettable memories, by going on the journey of a lifetime.</p>
                 <Button className='text-black text-[14px] sm:text-[18px] manropefont cursor-pointer' onClick={() => scroll("services")}>Discover Now <span className='ml-[5px]'>&#8594;</span></Button>
             </HeroHero>

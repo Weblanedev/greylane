@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className="w-[139px] h-[70px] relative mb-[24px]">
                         <Image src="/assets/logowest-removebg-preview.png" fill={true} alt="Red Triangle" className='' />
                     </div>
-                    <p className='text-[15px] leading-[24px]'>At Westgate Migration Services, we consider travelling to be more than an experience.
+                    <p className='text-[15px] leading-[24px]'>At Jupiter Travel Agency, we consider travelling to be more than an experience.
                     </p>
 
                     <p className='mt-[76px] text-[15px] hidden lg:block'>©{new Date().getFullYear()}, All rights reserved.</p>

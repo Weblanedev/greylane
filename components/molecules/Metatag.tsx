@@ -18,7 +18,7 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
                     name="description"
                     content={
                         desc ??
-                        "At Westgate Migration Services, we consider travelling to be more than an experience."
+                        "At Jupiter Travel Agency, we consider travelling to be more than an experience."
                     }
                 />
                 {/*  */}
@@ -32,7 +32,7 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
                     property="og:description"
                     content={
                         desc ??
-                        "At Westgate Migration Services, we consider travelling to be more than an experience."
+                        "At Jupiter Travel Agency, we consider travelling to be more than an experience."
                     }
                 />
                 <meta
@@ -55,7 +55,7 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
                     name="twitter:description"
                     content={
                         desc ??
-                        "At Westgate Migration Services, we consider travelling to be more than an experience."
+                        "At Jupiter Travel Agency, we consider travelling to be more than an experience."
                     }
                 />
                 <meta
