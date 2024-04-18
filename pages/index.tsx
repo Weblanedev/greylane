@@ -119,7 +119,7 @@ export default function Home() {
     <>
       <MetaTag title="Home" />
       <main>
-        <HeroSection></HeroSection>
+        <HeroSection />
         <div className='2xl:w-[1440px] mx-auto'>
 
           <OurServices></OurServices>

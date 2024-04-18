@@ -16,7 +16,7 @@ const Footer = () => {
             <div className='flex flex-col lg:flex-row lg:justify-between gap-y-[50px]'>
                 <div className='lg:w-[30%] text-white'>
                     <div className="w-[139px] h-[70px] relative mb-[24px]">
-                        <Image src="/assets/logowest-removebg-preview.png" fill={true} alt="Red Triangle" className='' />
+                        <Image src="/assets/logowest-removebg-preview.png" height={50} width={80} alt="Red Triangle" className='' />
                     </div>
                     <p className='text-[15px] leading-[24px]'>At Jupiter Travel Agency, we consider travelling to be more than an experience.
                     </p>

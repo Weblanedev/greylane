@@ -68,18 +68,6 @@ const MobileMenu = ({ setMenuOpen }: any) => {
                                                 )}
                                             </div>
                                         ) : (
-                                            // <Link href={navs.link} passHref>
-                                            //   <NavLinks
-                                            //     onClick={() => scrolls(navs.id)}
-                                            //     className={
-                                            //       isMobileAnimate
-                                            //         ? "isModalActive opacity-0"
-                                            //         : "isModalNotActive"
-                                            //     }
-                                            //   >
-                                            //     {navs.name}
-                                            //   </NavLinks>
-                                            // </Link>
                                             <NavLinks
                                                 key={navs.id}
                                                 className={
