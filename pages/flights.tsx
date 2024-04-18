@@ -134,7 +134,7 @@ export default function Flights() {
             <div>
                 <div className='2xl:w-[1440px] m-auto mb-[50px]'>
                     <div className='mt-[70px] mb-[30px] text-center hidden xl:flex flex-col items-center justify-center'>
-                        <h1 className='text-[52px] text-center font-[500] pb-[0px] w-[80%] xl:m-auto recoletafont text-blue-1000'>Get the best value for your money, when you book a flight with West-Gate. </h1>
+                        <h1 className='text-[52px] text-center font-[500] pb-[0px] w-[80%] xl:m-auto recoletafont text-blue-1000'>Get the best value for your money, when you book a flight with Jupiter Travels. </h1>
                         <p className='manropefont text-[20px] leading-[24px] font-[400] my-[20px] text-gray-1000 w-full lg:w-[700px] m-auto'>
                             <span className='italic'>{'"'}To most people the sky is the limit. To those who love flying, the sky is home.{'"'}</span> – Unknown
                         </p>
@@ -145,7 +145,7 @@ export default function Flights() {
                 </div>
                 <div className='py-[0px] sm:pb-[110px] xl:py-[50px] px-[20px] sm:px-[50px] lg:px-[20px] xl:px-[40px] 2xl:w-[1440px] mx-auto'>
                     <div>
-                        <h1 className='recoletafont text-center text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'>Fly With West-Gate</h1>
+                        <h1 className='recoletafont text-center text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'>Fly With Jupiter Travels</h1>
                         <p className='manropefont text-center text-[15px] leading-[24px] font-[400] text-gray-1000 w-full lg:w-[700px] m-auto'>
                             Where do you want to go? We{"'"}ll take you anywhere you want in the world, as long as you{"'"}re booking a flight with us. Booking with us ensures you receive the best deals for the best flights to anywhere you want to go.
                         </p>

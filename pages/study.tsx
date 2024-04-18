@@ -97,7 +97,7 @@ export default function Study() {
             </div>
             <div className='2xl:w-[1440px] mx-auto'>
                 <div className='text-center my-[50px]'>
-                    <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'> Study with West-Gate</h1>
+                    <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'> Study with Jupiter Travels</h1>
                     <p className='manropefont text-[15px] leading-[24px] font-[400] text-gray-1000 w-full lg:w-[700px] m-auto'>
                         Pursue an international degree in any part of the world.
                     </p>

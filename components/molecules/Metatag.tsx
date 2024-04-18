@@ -11,7 +11,7 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
     return (
         <>
             <Head>
-                <title> {title ? `${title} - ` : ""} West-Gate Services </title>
+                <title> {title ? `${title} - ` : ""} Jupiter Travel Agency </title>
                 <link rel="icon" href="/assets/logowest.png" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta
@@ -23,10 +23,10 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
                 />
                 {/*  */}
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="http://www.westgatemigrationservices.com" />
+                <meta property="og:url" content="http://www.jupitertravelagency.com" />
                 <meta
                     property="og:title"
-                    content={`${title ? `${title} - ` : ""} West-Gate Services`}
+                    content={`${title ? `${title} - ` : ""} Jupiter Travel Agency`}
                 />
                 <meta
                     property="og:description"
@@ -39,17 +39,17 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
                     property="og:image"
                     content={
                         image ??
-                        "http://www.westgatemigrationservices.com/assets/logowest.png"
+                        "http://www.jupitertravelagency.com/assets/logowest.png"
                     }
                 />
 
                 <meta name="twitter:type" content="website" />
                 <meta name="twitter:site" content="@blocathon" />
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:url" content="http://www.westgatemigrationservices.com" />
+                <meta name="twitter:url" content="http://www.jupitertravelagency.com" />
                 <meta
                     name="twitter:title"
-                    content={`${title ? `${title} - ` : ""} West-Gate Services`}
+                    content={`${title ? `${title} - ` : ""} Jupiter Travel Agency`}
                 />
                 <meta
                     name="twitter:description"
@@ -62,7 +62,7 @@ const MetaTag: FC<MetaTagProps> = ({ title, desc, image }) => {
                     name="twitter:image"
                     content={
                         image ??
-                        "http://www.westgatemigrationservices.com/assets/logowest.png"
+                        "http://www.jupitertravelagency.com/assets/logowest.png"
                     }
                 ></meta>
             </Head>
