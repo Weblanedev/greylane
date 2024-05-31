@@ -265,7 +265,7 @@ export default function Immigration() {
                     </div>
                 </div>
 
-                <div className='py-[50px] my-[110px] sm:pb-[50px] pl-[20px] sm:pl-[50px] lg:pl-[20px] xl:pl-[100px]'>
+                {/* <div className='py-[50px] my-[110px] sm:pb-[50px] pl-[20px] sm:pl-[50px] lg:pl-[20px] xl:pl-[100px]'>
                     <div className=''>
                         <h1 className='manropefont text-[14px] leading-[28px] font-[400] text-blue-1100'>TESTIMONIALS</h1>
                         <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'>What Our Customers Say</h1>
@@ -301,7 +301,7 @@ export default function Immigration() {
                         <h1 className='border-[1px] rounded-[50%] text-gray-1000  border-gray-1000 px-[12px] py-[4px] cursor-pointer' onClick={scrollLft}>&#8592;</h1>
                         <h1 className='border-[1px] rounded-[50%] text-blue-1000 border-blue-1000 px-[12px] py-[4px] cursor-pointer' onClick={scrollRight}>&#8594;</h1>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>

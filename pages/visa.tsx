@@ -190,7 +190,7 @@ export default function Visa() {
                         </div>
                     </div>
                 </div>
-
+{/* 
                 <div className='py-[50px] sm:pb-[50px] pl-[20px] sm:pl-[50px] lg:pl-[20px] xl:pl-[100px]'>
                     <div className=''>
                         <h1 className='manropefont text-[14px] leading-[28px] font-[400] text-blue-1100'>TESTIMONIALS</h1>
@@ -227,7 +227,7 @@ export default function Visa() {
                         <h1 className='border-[1px] rounded-[50%] text-gray-1000  border-gray-1000 px-[12px] py-[4px] cursor-pointer' onClick={scrollLft}>&#8592;</h1>
                         <h1 className='border-[1px] rounded-[50%] text-blue-1000 border-blue-1000 px-[12px] py-[4px] cursor-pointer' onClick={scrollRight}>&#8594;</h1>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

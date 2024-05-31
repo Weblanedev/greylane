@@ -48,11 +48,6 @@ export default function Home() {
       question: "Will you be available while I am on vacation?",
       answer: "Yes, we will be available to answer any questions or address any concerns that you may have. You can get in touch with us anytime. We are committed to providing the best possible service and helping our clients create memorable vacations that they will always remember."
     },
-    {
-      id: 7,
-      question: "Do you have an office I can visit for consultation?",
-      answer: "Yes, Our office is at: 21, Bekwere Wosu Street, D-Line, Port Harcourt, Rivers State, Nigeria."
-    }
   ]
   const Testimonials = [
     {
@@ -165,7 +160,7 @@ export default function Home() {
               }
             </div>
           </div>
-          <div className='py-[50px] sm:py-[110px] pl-[20px] lg:pl-[20px] xl:pl-[100px]'>
+          {/* <div className='py-[50px] sm:py-[110px] pl-[20px] lg:pl-[20px] xl:pl-[100px]'>
             <div className=''>
               <h1 className='manropefont text-[14px] leading-[28px] font-[400] text-blue-1100'>TESTIMONIALS</h1>
               <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'>What Our Customers Say</h1>
@@ -200,7 +195,7 @@ export default function Home() {
               <h1 className='border-[1px] rounded-[50%] text-blue-1000 border-blue-1000 px-[12px] py-[4px] cursor-pointer' onClick={scrollLft}>&#8592;</h1>
               <h1 className='border-[1px] rounded-[50%] text-blue-1000 border-blue-1000 px-[12px] py-[4px] cursor-pointer' onClick={scrollRight}>&#8594;</h1>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className='bg-blue-1500 h-[352px] flex'>
