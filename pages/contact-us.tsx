@@ -83,9 +83,9 @@ export default function ContactUs() {
                     Our consultants are always available to help you with whatever you need.
                 </p>
             </div>
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.8230288001123!2d6.999106617090918!3d4.8004182326243505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce9e9cf9947b%3A0xe3142ce21290f643!2s21%20Bekwere%20Wosu%20St%2C%20Woji%20500261%2C%20Port%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1681094166074!5m2!1sen!2sng" width="1000" height="600" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            </div> */}
             <div className="flex justify-between flex-col-reverse xl:flex-row px-[20px] xl:px-[150px] my-[50px] 2xl:w-[1440px] gap-[150px] mx-auto">
                 <div>
                     <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[20px] sm:mt-[4px] text-blue-1000'>Send us a Message</h1>
@@ -155,19 +155,6 @@ export default function ContactUs() {
                                 onChange={handleChange}
                                 placeholder="Type your message here..."
                             ></MessageArea>
-                            {/* {messageNum < 1 && (
-                                <p className="text-[#FF6661]">
-                                    You have exceed the maximum number of words.
-                                </p>
-                            )}
-                            {userMessage.length > 0 && messageNum > 1 && (
-                                <p className="text-[#FF6661] font-normal">
-                                    <strong className="font-semibold">
-                                        {messageNum}
-                                    </strong>{" "}
-                                    words remaining
-                                </p>
-                            )} */}
                         </div>
                         <p className='text-red-400'>{error}</p>
                         {success && <p className='text-green-500'>Sent</p>}
@@ -175,25 +162,18 @@ export default function ContactUs() {
                     </form>
                 </div>
                 <div>
-                    <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[20px] sm:mt-[4px] text-blue-1000'>Location</h1>
-                    <p className='manropefont text-[16px] sm:text-[18px] leading-[36px] font-[400] text-gray-1000 w-[100%]'>Lekki, Lagos, Nigeria.</p>
+                    <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[20px] sm:mt-[4px] text-blue-1000'>Contact Details</h1>
                     <div className='flex items-center mt-[30px]'>
                         <div className='pt-[24px] w-[35px] h-[35px] relative'>
                             <Image src='/assets/mail.png' fill={true} className='rounded-[12px]' alt=""></Image>
                         </div>
-                        <a className='ml-[30px] manropefont text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000' href='mailto:westgatemigrationservices@gmail.com'>westgatemigrationservices@gmail.com</a>
-                    </div>
-                    <div className='flex items-center mt-[20px]'>
-                        <div className='pt-[24px] w-[35px] h-[35px] relative'>
-                            <Image src='/assets/phone.png' fill={true} className='rounded-[12px]' alt=""></Image>
-                        </div>
-                        <a className='manropefont ml-[30px] text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000' href="tel:08107280221">+234-810-728-0221</a>
+                        <a className='ml-[30px] manropefont text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000' href='mailto:westgatemigrationservices@gmail.com'>info@greylane.ng</a>
                     </div>
                     <div className='flex items-center mt-[20px]'>
                         <div className='pt-[24px] w-[35px] h-[35px] relative'>
                             <Image src='/assets/work.png' fill={true} className='rounded-[12px]' alt=""></Image>
                         </div>
-                        <p className='manropefont ml-[30px] text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000'>MON - FRI : 9am - 4pm</p>
+                        <p className='manropefont ml-[30px] text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000'>MON - FRI : 9am - 5pm</p>
                     </div>
 
                 </div>

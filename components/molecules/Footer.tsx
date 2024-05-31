@@ -16,7 +16,7 @@ const Footer = () => {
       <div className='flex flex-col lg:flex-row lg:justify-between gap-y-[50px]'>
         <div className='lg:w-[30%] text-white'>
           <div className='w-[139px] h-[70px] relative mb-[24px]'>
-            <h2>Greylane</h2>
+            <h1 style={{color: '#fff', fontWeight: '600px'}}>Greylane</h1>
             {/* <Image
               src='/assets/logowest-removebg-preview.png'
               height={50}
@@ -31,7 +31,7 @@ const Footer = () => {
           </p>
 
           <p className='mt-[76px] text-[15px] hidden lg:block'>
-            ©{new Date().getFullYear()}, All rights reserved.
+            All rights reserved © Greylane.ng
           </p>
         </div>
         <div>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
       <p className='mt-[76px] text-[15px] text-white block lg:hidden'>
-        ©{new Date().getFullYear()}, All rights reserved.
+      All rights reserved © Greylane.ng
       </p>
     </footer>
   );

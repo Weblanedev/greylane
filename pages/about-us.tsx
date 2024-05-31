@@ -56,7 +56,7 @@ export default function AboutUs() {
             unforgettable travel experience from start to finish.
           </p>
         </div>
-        <div className='flex justify-center'>
+        {/* <div className='flex justify-center'>
           <div className='pt-[24px] gap-[40px] w-[90%] h-[300px] sm:w-[720px] sm:h-[450px] lg:w-[900px] lg:h-[600px] relative'>
             <Image
               src='/assets/how-we-work-one.jpg'
@@ -64,7 +64,7 @@ export default function AboutUs() {
               className='rounded-[12px]'
               alt=''></Image>
           </div>
-        </div>
+        </div> */}
 
         <div className='flex flex-col lg:flex-row items-center py-[50px] sm:py-[110px] px-[20px] lg:px-[60px] xl:px-[100px] gap-[35px] lg:gap-[136px]'>
           <div className='sm:w-[90%] lg:w-[50%]'>
@@ -130,55 +130,6 @@ export default function AboutUs() {
                 className='rounded-2xl'
               />
             </div>
-          </div>
-        </div>
-
-        {/* <div className='flex flex-col-reverse lg:flex-row items-center py-[50px] sm:py-[110px] px-[20px] lg:px-[20px] xl:px-[100px] gap-[35px] lg:gap-[136px]'>
-
-                <div className="w-full h-[248px] sm:h-[400px] lg:w-[440px] lg:h-[500px] xl:w-[636px] xl:h-[450px] relative">
-                    <Image src="/assets/how-we-work-two.jpg" fill={true} alt="Red Triangle" className='rounded-2xl' />
-                </div>
-                <div>
-                    <h1 className='manropefont text-[14px] leading-[28px] font-[400] text-blue-1100'>WHAT WE OFFER</h1>
-                    <h1 className='recoletafont text-[32px] sm:text-[40px] leading-[68px] font-[600] sm:mb-[0px] sm:mt-[4px] text-blue-1000'>Our Vision</h1>
-                    <p className='manropefont text-justify text-[16px] leading-[24px] sm:text-[18px] sm:leading-[36px] font-[400] text-gray-1000 w-full lg:w-[425px]'>
-                        Our Vision is to be innovators and leaders in the concept of travel by positioning our company in the market within the best tourism companies in the world.
-                    </p>
-                    <Button className='text-blue-1100 text-[14px] bg-blue-1200 sm:text-[18px] manropefont'>Explore <span className='ml-[5px]'>&#8594;</span></Button>
-
-                </div>
-            </div> */}
-
-        <div className='py-[50px] sm:pb-[50px]'>
-          <h1 className='recoletafont text-[32px] leading-[40px] lg:text-[40px] lg:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000 sm:w-[60%] text-center m-auto'>
-            Quantitative data holds significance, so here are several key
-            figures:
-          </h1>
-          <div className='mt-[30px] lg:mt-[59px] px-[50px] flex flex-col lg:flex-row justify-between gap-[32px]'>
-            {Lorem.map((e, idx) => {
-              return (
-                <div
-                  className='bg-blue-1400 px-[30px] py-[57px] w-fit relative rounded-[24px]'
-                  key={idx}>
-                  <div className='w-[40px] h-[40px] relative'>
-                    <Image
-                      src='/assets/imgavatar.png'
-                      fill={true}
-                      alt='Red Triangle'
-                      className='rounded-2xl'
-                    />
-                  </div>
-                  <div className='flex gap-[12px] mt-[30px] mb-[20px]'>
-                    <h1 className='recoletafont font-[600] text-[35px] leading-[24px] text-blue-1000'>
-                      {e.value}
-                    </h1>
-                  </div>
-                  <p className='manropefont text-[16px] sm:leading-[30px] text-blue-1000'>
-                    {e.answer}
-                  </p>
-                </div>
-              );
-            })}
           </div>
         </div>
       </div>
