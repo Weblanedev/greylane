@@ -21,7 +21,7 @@ export default function Home() {
     },
     {
       id: 2,
-      question: "When can I book my trip with Jupiter Travel Agency?",
+      question: "When can I book my trip with Greylane Travel Agency?",
       answer: "You can book your trip with us at any time. We are available to help you plan your next adventure, and we offer a wide range of services, including flight and hotel bookings, tours and activities, and much more. So whether you are planning a  last-minute getaway, a long-awaited vacation or a trip for study purposes we can help you make it happen."
 
     },
@@ -59,28 +59,28 @@ export default function Home() {
       id: 1,
       name: "Mr James Okusanya",
       occupation: "Studying Msc public health",
-      testimonial: "I would recommend Jupiter Travel Agency to anyone trying to get university admission overseas. They made my admission process very smooth and easy."
+      testimonial: "I would recommend Greylane Travel Agency to anyone trying to get university admission overseas. They made my admission process very smooth and easy."
 
     },
     {
       id: 2,
       name: "Miss Obiakaeze",
       occupation: "",
-      testimonial: "I can't say enough about Jupiter Travel Agency. Jupiter Travel Agency really helped with my schenghen visa process after so many denials and money wasted. Thanks to them, my visa was approved in March."
+      testimonial: "I can't say enough about Greylane Travel Agency. Greylane Travel Agency really helped with my schenghen visa process after so many denials and money wasted. Thanks to them, my visa was approved in March."
 
     },
     {
       id: 3,
       name: "Mrs Vicky Dozie",
       occupation: "",
-      testimonial: "I have been using Jupiter Travel Agency for over a year now for flight bookings! I can't imagine my travel life without them. Their customer service is great and they respond to complaints swiftly."
+      testimonial: "I have been using Greylane Travel Agency for over a year now for flight bookings! I can't imagine my travel life without them. Their customer service is great and they respond to complaints swiftly."
 
     },
     {
       id: 4,
       name: "Mr Nwaneri",
       occupation: "",
-      testimonial: "Jupiter Travel Agency helped my family and I with getting our passports at the Nigerian immigration office and tourist visas to England. Previously, we were lost and did not know what to do or where to start from. Using Jupiter Travel Agency has definitely saved us time and money."
+      testimonial: "Greylane Travel Agency helped my family and I with getting our passports at the Nigerian immigration office and tourist visas to England. Previously, we were lost and did not know what to do or where to start from. Using Greylane Travel Agency has definitely saved us time and money."
 
     },
   ]

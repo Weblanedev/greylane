@@ -16,7 +16,7 @@ const CTA = () => {
                         text: 'Explore the beautiful continent we live in, one flight at a time.'
                     }, {
                         name: "Flights To Europe",
-                        text: "Fly free. Fly luxuriously. Fly to Europe with Jupiter Travels."
+                        text: "Fly free. Fly luxuriously. Fly to Europe with Greylane Travels."
                     }].map((e, idx) => {
                         return (
                             <div className='flex items-center gap-[20px]' key={idx}>

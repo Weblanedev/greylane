@@ -39,7 +39,7 @@ export default function AboutUs() {
             Who We Are
           </p>
           <p className='w-[90%] lg:w-[65%] text-[18px] leading-[28px] lg:text-[20px] lg:leading-[36px]  pb-[24px] m-auto text-justify  text-gray-1000 manropefont'>
-            At Jupiter Travel Agency, we view travel as more than just a
+            At Greylane Travel Agency, we view travel as more than just a
             journey. We perceive ourselves as a conduit that transforms travel
             aspirations into tangible experiences, ultimately creating enduring
             memories. Our commitment goes beyond merely facilitating your dream

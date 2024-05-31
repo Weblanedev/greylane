@@ -34,28 +34,28 @@ export default function Study() {
             id: 1,
             name: "Mr James Okusanya",
             occupation: "Studying Msc public health",
-            testimonial: "I would recommend Jupiter Travel Agency to anyone trying to get university admission overseas. They made my admission process very smooth and easy."
+            testimonial: "I would recommend Greylane Travel Agency to anyone trying to get university admission overseas. They made my admission process very smooth and easy."
 
         },
         {
             id: 2,
             name: "Miss Obiakaeze",
             occupation: "",
-            testimonial: "I can't say enough about Jupiter Travel Agency. Jupiter Travel Agency really helped with my schenghen visa process after so many denials and money wasted. Thanks to them, my visa was approved in March."
+            testimonial: "I can't say enough about Greylane Travel Agency. Greylane Travel Agency really helped with my schenghen visa process after so many denials and money wasted. Thanks to them, my visa was approved in March."
 
         },
         {
             id: 3,
             name: "Mrs Vicky Dozie",
             occupation: "",
-            testimonial: "I have been using Jupiter Travel Agency for over a year now for flight bookings! I can't imagine my travel life without them. Their customer service is great and they respond to complaints swiftly."
+            testimonial: "I have been using Greylane Travel Agency for over a year now for flight bookings! I can't imagine my travel life without them. Their customer service is great and they respond to complaints swiftly."
 
         },
         {
             id: 4,
             name: "Mr Nwaneri",
             occupation: "",
-            testimonial: "Jupiter Travel Agency helped my family and I with getting our passports at the Nigerian immigration office and tourist visas to England. Previously, we were lost and did not know what to do or where to start from. Using Jupiter Travel Agency has definitely saved us time and money."
+            testimonial: "Greylane Travel Agency helped my family and I with getting our passports at the Nigerian immigration office and tourist visas to England. Previously, we were lost and did not know what to do or where to start from. Using Greylane Travel Agency has definitely saved us time and money."
 
         },
     ]
@@ -97,7 +97,7 @@ export default function Study() {
             </div>
             <div className='2xl:w-[1440px] mx-auto'>
                 <div className='text-center my-[50px]'>
-                    <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'> Study with Jupiter Travels</h1>
+                    <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[0px] sm:mt-[4px] text-blue-1000'> Study with Greylane Travels</h1>
                     <p className='manropefont text-[15px] leading-[24px] font-[400] text-gray-1000 w-full lg:w-[700px] m-auto'>
                         Pursue an international degree in any part of the world.
                     </p>

@@ -67,7 +67,8 @@ const Navbar = () => {
                 {/*bg-[#e1e1e1] */}
                 <Link href="/">
                     <div className="w-[109px] h-[50px] relative mb-[24px]">
-                        <Image src="/assets/logowest-removebg-preview.png" height={50} width={80} alt="Red Triangle" className='' />
+                    <h2>Greylane</h2>
+                        {/* <Image src="/assets/logowest-removebg-preview.png" height={50} width={80} alt="Red Triangle" className='' /> */}
                     </div></Link>
                 <NavbarToggle
                     className=" sm:mr-[20px] relative z-[100] lg:hidden"
