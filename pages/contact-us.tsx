@@ -165,6 +165,21 @@ export default function ContactUs() {
                     <h1 className='recoletafont text-[32px] leading-[40px] sm:text-[40px] sm:leading-[68px] font-[600] mb-[8px] sm:mb-[20px] sm:mt-[4px] text-blue-1000'>Contact Details</h1>
                     <div className='flex items-center mt-[30px]'>
                         <div className='pt-[24px] w-[35px] h-[35px] relative'>
+                            <Image src='/assets/location.png' fill={true} className='rounded-[12px]' alt=""></Image>
+                        </div>
+                        <p className='ml-[30px] manropefont text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000'>
+                        02 Dynamic Estate Orchid Road
+                        </p>
+                    </div>
+                    <div className='flex items-center mt-[30px]'>
+                        <div className='pt-[24px] w-[35px] h-[35px] relative'>
+                            <Image src='/assets/phone.png' fill={true} className='rounded-[12px]' alt=""></Image>
+                        </div>
+                        <a className='ml-[30px] manropefont text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000' href='tel:2349139351682'>
+                        +234 913-935-1682</a>
+                    </div>
+                    <div className='flex items-center mt-[30px]'>
+                        <div className='pt-[24px] w-[35px] h-[35px] relative'>
                             <Image src='/assets/mail.png' fill={true} className='rounded-[12px]' alt=""></Image>
                         </div>
                         <a className='ml-[30px] manropefont text-[16px] sm:text-[18px] leading-[24px] font-[400] text-gray-1000' href='mailto:westgatemigrationservices@gmail.com'>info@greylane.ng</a>

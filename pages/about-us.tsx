@@ -91,16 +91,21 @@ export default function AboutUs() {
             </div>
             {state === 'Mission' && (
               <p className='manropefont text-justify text-[16px] leading-[24px] sm:text-[18px] sm:leading-[36px] font-[400] text-gray-1000 w-full'>
-                Our Mission is to pioneer innovation and leadership in the realm
-                of travel, positioning our company among the world&apos;s top
-                tourism enterprises.
+                At Grey Lane, our mission is to enrich lives through exceptional travel experiences. 
+                We strive to provide personalized, seamless, and unforgettable journeys that inspire 
+                and connect people with the world{"'"}s diverse cultures, landscapes, and communities. 
+                Our commitment is to deliver top-notch service, innovative solutions, and sustainable
+               practices that exceed our clients expectations and foster a lifelong passion for exploration.
               </p>
             )}
             {state === 'Vision' && (
               <p className='manropefont text-justify text-[16px] leading-[24px] sm:text-[18px] sm:leading-[36px] font-[400] text-gray-1000 w-full'>
-                Our Mission is to be innovators and leaders in the concept of
-                travel by positioning our company in the market within the best
-                tourism companies in the world.
+               Our vision is to be the leading travel company known for crafting extraordinary adventures
+                that transform the way people see the world. We aim to inspire a global community of 
+                travelers by offering unique, immersive experiences that promote cultural understanding,
+                 environmental stewardship, and personal growth. Through continuous innovation and dedication 
+                 to excellence, Grey Lane aspires to set new standards in the travel industry and be a trusted 
+                 partner in every traveler{"'"}s journey
               </p>
             )}
             {/* <div className='mt-[30px] lg:w-[50%]'>
