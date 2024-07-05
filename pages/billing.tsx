@@ -4,6 +4,8 @@ import { SetStateAction, useEffect, useState } from "react";
 import Link from "next/link";
 import { useModals } from "../components/useModal"
 import ShowOrderModal from "../components/show-order";
+import {formatAmount} from './utils/index'
+
 // import { Book } from "./utils";
 
 const Billing = () => {
@@ -25,11 +27,11 @@ const Billing = () => {
         const numericalPart = parseFloat(input?.replace(/[^\d.]/g, ""));
 
         // Adding 100 to the numerical part
-        const result = numericalPart + 105;
+        const result = numericalPart + (160256);
 
         // Formatting the result back to the original format
         const formattedResult = result.toFixed(2);
-        const output = `$${formattedResult}`;
+        const output = `${formattedResult}`;
 
         return output;
     }
@@ -183,7 +185,7 @@ const Billing = () => {
                                 {selectedItem?.name}
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
-                                ${selectedItem?.price}
+                                ₦{selectedItem?.price}
                             </h4>
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -191,7 +193,7 @@ const Billing = () => {
                                 Booking Fee service charge
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
-                                $100.00
+                                ₦{formatAmount(152625)}
                             </h4>
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -199,13 +201,13 @@ const Billing = () => {
                                 Processing Fee
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
-                                $5.00
+                            ₦{formatAmount(7631)}
                             </h4>
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full border-b">
                             <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
                             <h4 className="text-blue-1100 font-medium text-[16px]">
-                                {add100Dollars(selectedItem?.price)}
+                            ₦{formatAmount(add100Dollars(selectedItem?.price))}
                             </h4>
                         </div>
                     </div>

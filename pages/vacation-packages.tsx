@@ -10,8 +10,9 @@ import vacation7 from '../public/assets/vacation-7.jpg'
 import MetaTag from '@/components/molecules/Metatag'
 import { useEffect, useState } from 'react'
 import Form from '@/components/molecules/Form'
-import styled from 'styled-components'
 import { useRouter } from 'next/router'
+import {formatAmount} from './utils/index'
+import styled from 'styled-components'
 
 
 export default function VacationPackages() {
@@ -24,24 +25,25 @@ export default function VacationPackages() {
       localStorage.setItem("item", JSON.stringify(product))
       router.push("/billing") 
     }
+
     const Europe = [
         {
             img: "/assets/vacation-london.jpg",
             location: "London Trip",
             time: "5 Days/5 Nights",
-            price: "2300"
+            price: `${formatAmount(3510375)}`
         },
         {
             img: "/assets/vacation-paris.jpg",
             location: "Paris Trip",
             time: "5 Days/5 Nights",
-            price: "4335"
+            price: `${formatAmount(6616293)}`
         },
         {
             img: "/assets/vacation-switzerland.jpg",
             location: "Switzerland Trip",
             time: "5 Days/5 Nights",
-            price: "3243"
+            price: `${formatAmount(4949628)}`
         }
     ]
 
@@ -50,19 +52,19 @@ export default function VacationPackages() {
             img: "/assets/vacation-accra-three.jpg",
             location: "Aqua Safari",
             time: "2 Days/2 Nights",
-            price: "700"
+            price: `${formatAmount(1068375)}`
         },
         {
             img: "/assets/vacation-accra-two.jpg",
             location: "Cape Coast",
             time: "2 Days/2 Nights",
-            price: "450"
+            price: `${formatAmount(686812)}`
         },
         {
             img: "/assets/vacation-accra-one.jpg",
             location: "Accra",
             time: "2 Days/2 Nights",
-            price: "1024"
+            price: `${formatAmount(1562880)}`
         }
     ]
 
@@ -71,19 +73,19 @@ export default function VacationPackages() {
             img: "/assets/vacation-island-mal.jpg",
             location: "Vacation in Maldives",
             time: "6 Days/5 Nights",
-            price: "1200"
+            price: `${formatAmount(1831500)}`
         },
         {
             img: "/assets/vacation-island-mar.jpg",
             location: "Vacation in Mauritius",
             time: "6 Days/5 Nights",
-            price: "1325"
+            price: `${formatAmount(2022281)}`
         },
         {
             img: "/assets/vacation-island-san.jpg",
             location: "Vacation in Santorini",
             time: "5 Days/5 Nights",
-            price: "1500"
+            price: `${formatAmount(2289375)}`
         }
     ]
     const [outside, setOutsider] = useState<any>()
@@ -182,7 +184,7 @@ export default function VacationPackages() {
                                             </div>
                                             <div className='pl-[40px] xl:pl-[50px]'>
                                                 <h1 className='manropefont text-[18px] leading-[24px] font-[400] text-gray-1000 mb-[10px]'>Flight ticket, City Tour,<br></br>Hotel Accommodation</h1>
-                                                <h1 className='recoletafont text-[20px] leading-[24px] font-[400] text-gray-1000 mb-[4px]'>${e.price}</h1>
+                                                <h1 className='recoletafont text-[20px] leading-[24px] font-[400] text-gray-1000 mb-[4px]'>₦{e.price}</h1>
                                             </div>
                                             <Button className='text-white bg-blue-1100 text-[14px] sm:text-[16px] manropefont w-[100%] mt-[20px]' onClick={() => { purchase(e.location, e.price) }}>Book Now</Button>
                                         </div>
@@ -215,7 +217,7 @@ export default function VacationPackages() {
                                             </div>
                                             <div className='pl-[40px] xl:pl-[50px]'>
                                                 <h1 className='manropefont text-[18px] leading-[24px] font-[400] text-gray-1000 mb-[10px]'>Flight ticket, City Tour,<br></br>Hotel Accommodation</h1>
-                                                <h1 className='recoletafont text-[20px] leading-[24px] font-[400] text-gray-1000 mb-[4px]'>${e.price}</h1>
+                                                <h1 className='recoletafont text-[20px] leading-[24px] font-[400] text-gray-1000 mb-[4px]'>₦{e.price}</h1>
                                             </div>
                                             <Button className='text-white bg-blue-1100 text-[14px] sm:text-[16px] manropefont w-[100%] mt-[20px]' onClick={() => { purchase(e.location, e.price) }}>Book Now</Button>
                                         </div>
@@ -247,7 +249,7 @@ export default function VacationPackages() {
                                                 </div>
                                             </div>
                                             <div className='pl-[40px] xl:pl-[50px]'>
-                                                <h1 className='recoletafont text-[20px] leading-[24px] font-[400] text-gray-1000 mb-[4px]'>${e.price}</h1>
+                                                <h1 className='recoletafont text-[20px] leading-[24px] font-[400] text-gray-1000 mb-[4px]'>₦{e.price}</h1>
                                             </div>
                                             <Button className='text-white bg-blue-1100 text-[14px] sm:text-[16px] manropefont w-[100%] mt-[20px]' onClick={() => { purchase(e.location, e.price) }}>Book Now</Button>
                                         </div>
