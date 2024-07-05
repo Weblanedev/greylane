@@ -11,7 +11,7 @@ import MetaTag from '@/components/molecules/Metatag'
 import { useEffect, useState } from 'react'
 import Form from '@/components/molecules/Form'
 import { useRouter } from 'next/router'
-import {formatAmount} from './utils/index'
+import formatAmount from './utils/index'
 import styled from 'styled-components'
 
 

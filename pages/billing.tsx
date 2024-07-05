@@ -4,7 +4,7 @@ import { SetStateAction, useEffect, useState } from "react";
 import Link from "next/link";
 import { useModals } from "../components/useModal"
 import ShowOrderModal from "../components/show-order";
-import {formatAmount} from './utils/index'
+import formatAmount from './utils/index'
 
 // import { Book } from "./utils";
 
