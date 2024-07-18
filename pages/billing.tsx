@@ -26,11 +26,11 @@ const Billing = () => {
         const numericalPart = parseFloat(input?.toString().replace(/[^\d.]/g, ""));
 
         // Adding 100 to the numerical part
-        const result = numericalPart + (160256);
+        const result = numericalPart + (50000);
 
         // Formatting the result back to the original format
         const formattedResult = result.toFixed(2);
-        const output = `${formattedResult}`;
+        const output = Number(formattedResult);
 
         return output;
     }
@@ -203,7 +203,7 @@ const Billing = () => {
                                 Booking Fee service charge
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
-                            ₦20,000.00
+                            ₦50,000.00
                             </h4>
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full">
