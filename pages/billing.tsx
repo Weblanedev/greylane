@@ -163,7 +163,7 @@ const Billing = () => {
                             ></textarea>
                         </div>
                         <p className="pt-[20px] text-[#161616] font-normal text-[16px] text-left">
-                            NB: Your personal data will be used to process your order, support
+                            Note: Your personal data will be used to process your order, support
                             your experience throughout this website, and for other purposes
                             described in our{" "}
                             <Link
