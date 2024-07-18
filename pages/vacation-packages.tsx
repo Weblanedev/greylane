@@ -10,9 +10,9 @@ import vacation7 from '../public/assets/vacation-7.jpg'
 import MetaTag from '@/components/molecules/Metatag'
 import { useEffect, useState } from 'react'
 import Form from '@/components/molecules/Form'
-import styled from 'styled-components'
 import { useRouter } from 'next/router'
 import { numberWithCommas } from '@/components/helpers/numberWithCommas'
+import styled from 'styled-components'
 
 
 export default function VacationPackages() {
@@ -25,6 +25,7 @@ export default function VacationPackages() {
       localStorage.setItem("item", JSON.stringify(product))
       router.push("/billing") 
     }
+
     const Europe = [
         {
             img: "/assets/vacation-london.jpg",

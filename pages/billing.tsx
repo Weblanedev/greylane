@@ -26,11 +26,11 @@ const Billing = () => {
         const numericalPart = parseFloat(input?.toString().replace(/[^\d.]/g, ""));
 
         // Adding 100 to the numerical part
-        const result = numericalPart + 10000;
+        const result = numericalPart + (160256);
 
         // Formatting the result back to the original format
         const formattedResult = result.toFixed(2);
-        const output = Number(formattedResult);
+        const output = `${formattedResult}`;
 
         return output;
     }
