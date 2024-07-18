@@ -4,6 +4,7 @@ import { SetStateAction, useEffect, useState } from "react";
 import Link from "next/link";
 import { useModals } from "../components/useModal"
 import ShowOrderModal from "../components/show-order";
+import { numberWithCommas } from "@/components/helpers/numberWithCommas";
 // import { Book } from "./utils";
 
 const Billing = () => {
@@ -22,14 +23,14 @@ const Billing = () => {
 
     function add100Dollars(input: string) {
         // Extracting the numerical part of the input string
-        const numericalPart = parseFloat(input?.replace(/[^\d.]/g, ""));
+        const numericalPart = parseFloat(input?.toString().replace(/[^\d.]/g, ""));
 
         // Adding 100 to the numerical part
-        const result = numericalPart + 105;
+        const result = numericalPart + 10000;
 
         // Formatting the result back to the original format
         const formattedResult = result.toFixed(2);
-        const output = `$${formattedResult}`;
+        const output = Number(formattedResult);
 
         return output;
     }
@@ -161,13 +162,24 @@ const Billing = () => {
                                 placeholder="Your Message"
                             ></textarea>
                         </div>
+                        <p className="pt-[20px] text-[#161616] font-normal text-[16px] text-left">
+                            NB: Your personal data will be used to process your order, support
+                            your experience throughout this website, and for other purposes
+                            described in our{" "}
+                            <Link
+                                href="/privacy-policy"
+                                className="text-blue-1100 cursor-pointer"
+                            >
+                                privacy policy.
+                            </Link>
+                        </p>
                     </div>
                 </div>
 
                 <div className="flex flex-col gap-[15px] items-start w-full justify-center">
-                    <h4 className="font-bold text-blue-1100 leading-[28px]">
+                <h2 className="text-[32px] font-medium">
                         Trip Breakdown
-                    </h4>
+                    </h2>
 
                     <div className="flex mt-[-5px] flex-col items-center justify-center w-full">
                         <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -183,7 +195,7 @@ const Billing = () => {
                                 {selectedItem?.name}
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
-                                ${selectedItem?.price}
+                            ₦{numberWithCommas(Number(selectedItem?.price))}.00
                             </h4>
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -191,27 +203,20 @@ const Billing = () => {
                                 Booking Fee service charge
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
-                                $100.00
+                            ₦20,000.00
                             </h4>
                         </div>
-                        <div className="flex items-center justify-between py-[15px] w-full border-b">
-                            <h4 className="text-[#707070] uppercase font-medium text-[13px]">
-                                Processing Fee
-                            </h4>
-                            <h4 className="text-[#161616] font-medium text-[16px]">
-                                $5.00
-                            </h4>
-                        </div>
-                        <div className="flex items-center justify-between py-[15px] w-full border-b">
+                        <div className="flex items-center justify-between py-[15px] w-full">
                             <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
-                            <h4 className="text-blue-1100 font-medium text-[16px]">
-                                {add100Dollars(selectedItem?.price)}
+                            <h4 className="text-blue-1100 font-bold text-[28px]">
+                            ₦{numberWithCommas(add100Dollars(selectedItem?.price))}
                             </h4>
                         </div>
                     </div>
 
                     <form>
-                        <div className="flex flex-wrap gap-3 w-full">
+                        <div className="flex flex-wrap gap-3 w-full pt-[50px]">
+                        <h2 className="text-[32px] font-medium">Card Details</h2>
                             <label className="relative w-full flex flex-col">
                                 <span className="font-bold mb-3">Card holder{"'"}s name</span>
                                 <input
@@ -347,33 +352,6 @@ const Billing = () => {
                         <p className="text-[#707070] mt-[20px] font-normal text-[13px]">
                             Note: Fee charged is decided by the specific type service, and
                             based on service demand. It may be lesser or higher.
-                        </p>
-
-                        <h4 className="font-bold text-blue-1100 mt-[20px] leading-[28px]">
-                            PAYMENT METHODS
-                        </h4>
-
-                        <div className="w-full flex flex-col gap-2 items-start">
-                            <img
-                                src="https://help.zazzle.com/hc/article_attachments/360010513393"
-                                alt=""
-                                className="w-full"
-                            />
-                            <p className="text-[#707070] font-normal text-[13px]">
-                                Make payment using your debit, credit card & bank account
-                            </p>
-                        </div>
-
-                        <p className="text-[#161616] font-normal text-[16px] text-left">
-                            Your personal data will be used to process your order, support
-                            your experience throughout this website, and for other purposes
-                            described in our{" "}
-                            <Link
-                                href="/privacy-policy"
-                                className="text-blue-1100 cursor-pointer"
-                            >
-                                privacy policy.
-                            </Link>
                         </p>
 
                         <button
