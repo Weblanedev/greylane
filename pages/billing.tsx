@@ -120,14 +120,14 @@ const Billing = () => {
                 </div>
             </section>
 
-            <section className="relative lg:p-10  md:px-[130px] md:pb-[130px] flex flex-col lg:flex-row gap-8 items-center lg:items-start w-[100%]  mx-auto justify-center">
+            <section className="relative lg:p-0  md:px-[130px] md:pb-[130px] flex flex-col lg:flex-row gap-8 items-center lg:items-start w-[100%]  mx-auto justify-center">
                 <div className="flex flex-col gap-8 items-start w-full justify-center lg:pr-8 lg:border-r">
-                    <div className="flex flex-col gap-2.5 text-[#181616] lg:items-start items-center  w-full mx-auto justify-center lg:w-[90%]">
+                    <div className="flex flex-col gap-2.5 text-[#181616] lg:items-start items-center  w-full mx-auto justify-center lg:w-[86%]">
                         <h2 className="text-[32px]  font-medium">User details</h2>
                     </div>
 
                     <div className="w-full lg:w-[720px]">
-                        <form className="mx-auto w-[90%] mx-auto flex flex-col gap-5">
+                        <form className="mx-auto w-[86%] mx-auto flex flex-col gap-5">
                             <div className="flex flex-col w-full gap-5 md:flex-row">
                                 <input
                                     type="text"
@@ -182,7 +182,7 @@ const Billing = () => {
                         </form>
 
 
-                        <div className="flex flex-col  w-[90%] mx-auto gap-5 mt-6 text-[#181616] lg:items-start items-center  justify-center lg:w-[90%] mx-auto">
+                        <div className="flex flex-col  w-[90%] mx-auto gap-5 mt-6 text-[#181616] lg:items-start items-center  justify-center lg:w-[86%] mx-auto">
                             <h2 className="text-[32px] font-medium">Additional Details</h2>
 
                             <textarea
@@ -194,8 +194,8 @@ const Billing = () => {
                         </div>
 
                       
-                        <div className="w-[90%] mx-auto">
-                            <p className="pt-[20px] text-[#161616] font-normal text-[16px] text-left">
+                        <div className="w-[86%] mx-auto">
+                            <p className="pt-[20px] lg:pb-10  text-[#161616] font-normal text-[16px] text-left">
                                 Note: Your personal data will be used to process your order, support
                                 your experience throughout this website, and for other purposes
                                 described in our{" "}
@@ -212,7 +212,7 @@ const Billing = () => {
                     </div>
                 </div>
 
-                <div className="flex pr-10 flex-col gap-[15px] items-start w-[80%] lg:w-[60%]  mx-auto justify-center">
+                <div className="flex xl:pr-20 flex-col gap-[15px] items-start w-[80%] lg:w-[60%]  mx-auto justify-center">
                     <h2 className="text-[32px] font-medium">
                         Trip Breakdown
                     </h2>
@@ -235,7 +235,7 @@ const Billing = () => {
                             </h4>
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full border-b">
-                            <h4 className="text-[#707070] uppercase font-medium text-[13px]">
+                            <h4 className="text-[#707070] lg:text-[1.2vw] text-[3vw] uppercase font-medium text-[13px]">
                                 Booking Fee service charge
                             </h4>
                             <h4 className="text-[#161616] font-medium text-[16px]">
@@ -244,7 +244,7 @@ const Billing = () => {
                         </div>
                         <div className="flex items-center justify-between py-[15px] w-full">
                             <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
-                            <h4 className="text-blue-1100 font-bold text-[28px]">
+                            <h4 className="text-blue-1100 lg:text-[2vw] text-[4.8vw]  font-bold text-[28px]">
                                 ₦{numberWithCommas(priceOutput)}.00
                             </h4>
                         </div>
