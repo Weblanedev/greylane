@@ -1,7 +1,8 @@
 "use client";
 
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react"
 import Link from "next/link";
+import { useRouter } from 'next/navigation'
 import { useModals } from "../components/useModal";
 import ShowOrderModal from "../components/show-order";
 import { numberWithCommas } from "@/components/helpers/numberWithCommas";
@@ -12,6 +13,7 @@ const Billing = () => {
         price: "",
         image: ""
     });
+    const router = useRouter()
     const [priceOutput, setPriceOutput] = useState(0);
     const [cardProfile, setCardProfile] = useState({
         firstName: "",
@@ -65,23 +67,34 @@ const Billing = () => {
     }, [])
 
     function payKorapay() {
-        if (window.Korapay) {
-            window.Korapay.initialize({
+        if ((window as any).Korapay) {
+            (window as any).Korapay.initialize({
                 key: process.env.NEXT_PUBLIC_KORA_CHECKOUT_PUBLIC_KEY,
                 reference: "",
-                amount: priceOutput,
+                amount: priceOutput,  
                 currency: "NGN",
                 customer: {
                     name: cardProfile.firstName,
                     email: cardProfile.email
                 },
-                notification_url: ""
+                notification_url: "https://example.com/webhook",
+                onSuccess: (response:any) => {
+                    console.log("Payment Successful:", response);
+                },
+                onFailed: (error:any) => {
+                    console.log("Payment Error:", error);
+                },
+                onClose: () => {
+                    console.log("Payment Popup Closed");
+                    router.push("/")
+                    
+                }
             });
         } else {
-            // console.error("Korapay script not loaded");
+            console.error("Korapay script not loaded");
         }
     }
-
+    
     function add100Dollars(input: string) {
         const numericalPart = parseFloat(input?.toString().replace(/[^\d.]/g, ""));
         const result = numericalPart + (50000);
